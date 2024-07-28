@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Frontent-Mentor-Challenge---product-list-with-cart/static/css/main.25d2a9ec.css",
-    "main.js": "/Frontent-Mentor-Challenge---product-list-with-cart/static/js/main.ba85247a.js",
+    "main.js": "/Frontent-Mentor-Challenge---product-list-with-cart/static/js/main.2a1b5da3.js",
     "index.html": "/Frontent-Mentor-Challenge---product-list-with-cart/index.html",
     "main.25d2a9ec.css.map": "/Frontent-Mentor-Challenge---product-list-with-cart/static/css/main.25d2a9ec.css.map",
-    "main.ba85247a.js.map": "/Frontent-Mentor-Challenge---product-list-with-cart/static/js/main.ba85247a.js.map"
+    "main.2a1b5da3.js.map": "/Frontent-Mentor-Challenge---product-list-with-cart/static/js/main.2a1b5da3.js.map"
   },
   "entrypoints": [
     "static/css/main.25d2a9ec.css",
-    "static/js/main.ba85247a.js"
+    "static/js/main.2a1b5da3.js"
   ]
 }
