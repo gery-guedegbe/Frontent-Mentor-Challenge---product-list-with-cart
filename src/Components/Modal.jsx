@@ -10,7 +10,7 @@ const Modal = ({ show, children }) => {
       <div className=" bg-white w-full overflow-hidden rounded-tr-2xl rounded-tl-2xl md:rounded-lg shadow-xl transform transition-all sm:max-w-lg sm:w-full">
         <div className="px-4 py-3 border-b border-gray-200 flex flex-col items-start justify-between gap-4">
           <img
-            src="../assets/images/icon-order-confirmed.svg"
+            src="./assets/images/icon-order-confirmed.svg"
             alt="Order Confirmed Icon"
             className="w-8 h-8"
           />

@@ -150,7 +150,7 @@ const Main = () => {
         {articleStates.filter((state) => state.isSelected).length === 0 ? (
           <div className="w-full flex flex-col items-center justify-center mx-auto gap-6">
             <img
-              src="../assets/images/illustration-empty-cart.svg"
+              src="./assets/images/illustration-empty-cart.svg"
               alt="Empty Cart Icon"
               className="w-1/2 h-auto "
             />
