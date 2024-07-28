@@ -84,4 +84,4 @@ This project is currently complete, but improvements and additional features are
 
 Géry Guedegbe - [guedegbe2003@gmail.com](mailto:guedegbe2003@gmail.com)
 
-Project Link: [https://github.com/gery-guedegbe/product-list-with-cart](https://github.com/gery-guedegbe/product-list-with-cart)
+Project Link: [[https://github.com/gery-guedegbe/product-list-with-cart](https://github.com/gery-guedegbe/product-list-with-cart)](https://github.com/gery-guedegbe/Frontent-Mentor-Challenge---product-list-with-cart.git)
