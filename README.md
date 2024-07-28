@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Product List with Cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a solution to the [Frontend Mentor](https://www.frontendmentor.io) challenge "Product List with Cart". The aim of the challenge is to build a responsive product list where users can add items to a cart, adjust quantities, and see the total order price.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Project Status](#project-status)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The "Product List with Cart" project provides a dynamic and responsive interface where users can browse a list of products, add items to their cart, adjust quantities, and view the total price. The interface is designed to be user-friendly and works seamlessly across various screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Responsive Design**: The layout adapts to different screen sizes, ensuring a great user experience on both mobile and desktop devices.
+- **Product List**: Displays a list of products with images, names, categories, and prices.
+- **Add to Cart**: Users can add items to their cart with a single click.
+- **Quantity Adjustment**: Users can increase or decrease the quantity of items in their cart.
+- **Remove Items**: Users can remove items from their cart.
+- **Total Price Calculation**: The total order price is calculated dynamically based on the items in the cart.
+- **Confirmation Modal**: A modal popup confirms the order when the "Confirm Order" button is clicked.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **FontAwesome**: Icon library used for cart icons.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these simple steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gery-guedegbe/product-list-with-cart.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd product-list-with-cart
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Open your browser and go to `http://localhost:3000`.
+2. Browse the list of products.
+3. Click "Add to Cart" to add items to your cart.
+4. Adjust quantities or remove items as needed.
+5. Click "Confirm Order" to see the order confirmation modal.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Product List](./src/design/active-states.jpg)
+_Product list showing various items_
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Cart](./src/design/mobile-design-order-confirmation.jpg)
+_Cart with selected items and total price_
 
-## Learn More
+## Project Status
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is currently complete, but improvements and additional features are always welcome. Feel free to fork the repository and submit pull requests.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
+- Thanks to [Frontend Mentor](https://www.frontendmentor.io) for providing the challenge and resources.
+- Icons by [FontAwesome](https://fontawesome.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
+Géry Guedegbe - [guedegbe2003@gmail.com](mailto:guedegbe2003@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/gery-guedegbe/product-list-with-cart](https://github.com/gery-guedegbe/product-list-with-cart)
